@@ -1,31 +1,21 @@
 # Shengbao Wang — Academic Homepage
 
-A lightweight, English-language academic homepage for **Shengbao Wang**, Hangzhou Normal University.
+Static, GitHub Pages-ready academic website for `https://paulwang2024.github.io/`.
 
-## Site map
+## Deployment
 
-- `index.html` — academic homepage, with three prominent research links
-- `dh-protocols.html` — On DH Protocols
-- `ibe.html` — Identity-Based Encryption
-- `dijkstra.html` — Dijkstra and Shortest Paths, with the English v14 manuscript PDF
-- `assets/style.css` — responsive site styling (no external dependencies)
-- `assets/dijkstra-global-to-local-v14.pdf` — embedded manuscript
+1. Upload the contents of this folder, **not the ZIP itself**, to the root of the public repository `PaulWang2024/PaulWang2024.github.io`.
+2. Under **Settings → Pages**, select **Deploy from a branch**, `main`, `/(root)`.
+3. Commit changes and wait for the Pages workflow to finish.
+4. Visit `https://paulwang2024.github.io/` and refresh.
 
-## Publish on GitHub Pages
+## Updates
 
-1. Create a **public** repository named `PaulWang2024.github.io` (matching your GitHub username, case-insensitively).
-2. **Extract** the ZIP archive and upload its *contents* to the **root** of the repository. Do not upload the ZIP by itself and do not nest the files in a folder.
-3. In the repository, choose **Settings → Pages → Build and deployment**:
-   - **Source**: Deploy from a branch
-   - **Branch**: `main`
-   - **Folder**: `/(root)`
-4. Save the settings. Once deployment is complete, the site should be available at `https://paulwang2024.github.io/`.
-5. To help visitors reach the site from your GitHub profile, set the **Website** field at `https://github.com/settings/profile` to `https://paulwang2024.github.io/`.
+- Preserved the original biography and the fully embedded stylesheet.
+- Ordered research topics: **Dijkstra / shortest paths → DH protocols → IBE**.
+- Added selected arXiv paper links to the DH and IBE *introduction pages*.
+- Added GoatCounter to all four HTML pages with the site code `paulwang2026`.
+- Kept the Dijkstra version 14 PDF and its download link.
+- No `.tex` source files are included.
 
-## Editing
-
-- Update your biography and research links in `index.html`.
-- Replace generic research-topic text in `dh-protocols.html` or `ibe.html` with verified article titles and URLs as desired.
-- Replace the v14 PDF in `assets/` as the Dijkstra manuscript evolves, or update the link in `dijkstra.html` to point to the dedicated project page.
-
-All pages are static HTML + CSS and can be used without a build system, JavaScript, or external font services.
+Visitor traffic, referrers and locations can be reviewed using your GoatCounter account; the widget is intentionally not visible as a public counter.
